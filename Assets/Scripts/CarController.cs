@@ -50,8 +50,8 @@ public class CarController : MonoBehaviour
         rearPassengerW.motorTorque = m_verticalInput * motorForce;
         
         // 4WD
-        //frontPassengerW.motorTorque = m_verticalInput * motorForce;
-        //frontDriverW.motorTorque = m_verticalInput * motorForce;
+        frontPassengerW.motorTorque = m_verticalInput * motorForce;
+        frontDriverW.motorTorque = m_verticalInput * motorForce;
 
         //new
         _speed = (rearPassengerW.rpm / 5000);
