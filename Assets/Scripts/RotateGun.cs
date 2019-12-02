@@ -8,7 +8,7 @@ public class RotateGun : MonoBehaviour
 
     //public Transform car;
 
-    float smooth = 5.0f;
+    //float smooth = 5.0f;
 
     void FixedUpdate() {
         
